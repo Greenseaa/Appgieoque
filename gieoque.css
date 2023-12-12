@@ -1,0 +1,52 @@
+/* Trong gieoque.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7d992; /* Màu vàng tâm lịnh cho nền */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db; /* Màu xanh dương cho nút */
+    color: #fff; /* Màu trắng cho chữ nút */
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out; /* Hiệu ứng chuyển động cho nút */
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#ketQuaGieoQue {
+    margin-top: 20px;
+    font-size: 24px; /* Tăng kích thước chữ "Kết quả" */
+    font-weight: bold;
+    color: #333; /* Màu đen cho kết quả */
+}
+
+#ketQuaGieoQue span {
+    display: block;
+    font-size: 18px; /* Kích thước chữ cho nội dung kết quả */
+    margin-top: 10px; /* Khoảng cách giữa chữ "Kết quả" và nội dung kết quả */
+}
+
+#backgroundMusic {
+    display: none;
+}
